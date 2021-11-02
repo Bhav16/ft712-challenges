@@ -204,6 +204,10 @@ svg {
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
 
+.container-card h2 {
+  text-align: center;
+}
+
 .module-container {
   display: flex;
   justify-content: center;
@@ -221,7 +225,7 @@ svg {
 .newsletter-bloc{
 background-color: rgb(61, 61, 61);
 width: 80%;
-margin-left: 55px;
+margin-left: 130px;
 margin-bottom: 40px;
 display: flex;
 }
