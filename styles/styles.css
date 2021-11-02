@@ -18,7 +18,9 @@ li > a:hover {
 
 .team-text-section {
   width: 50%;
+  align-items:center;
 }
+
 
 .nav-wrapper {
   display: flex;
@@ -131,6 +133,7 @@ li > a:hover {
   width: 300px;
   border-radius: 4px;
 }
+
 .dropdown-content-right {
   display: none;
   position: absolute;
@@ -170,6 +173,7 @@ li > a:hover {
 }
 
 .cards {
+  display: flex;
 }
 
 svg {
