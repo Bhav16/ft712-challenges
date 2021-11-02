@@ -5,6 +5,7 @@
   width: 20%;
   background-color: #303030;
   z-index: -1;
+  clip-path: polygon(0 0, 100% 0, 100% 30%, 100% 100%, 0 100%, 0 35%, 15% 25%, 0 14%);
 }
 
 .pf-child {
@@ -42,4 +43,8 @@ i {
   font-size: 3rem !important;
   color: aliceblue;
   font-weight: 600;
+}
+
+#pointer {
+  text-align: center;
 }
