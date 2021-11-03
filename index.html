@@ -80,7 +80,7 @@
                         <a href="#">Grand Baie</a>
                         </div>
                     </li>
-                    <li><a href="#">Your Account</a></li>
+                    <li><a href="#" id="input">Your Account</a></li>
                 </ul>
             </div>
         </div>
@@ -397,10 +397,19 @@
         } else {
             navbar.classList.remove("navbar-white");
             navWrapper.classList.remove("top");
-        }
+          }
 
-        <button onclick="this.innerHTML=Your Account()" value = "Email"></button>
         });
+
+        const form = document.querySelector(".form");
+        const email = document.querySelector(".input-element");
+        const account = document.getElementById("input");
+
+        form.addEventListener("submit", (event) => {
+          event.preventDefault();
+          account.innerHTML = email.value
+        });
+
     </script>
   </body>
 </html>

@@ -18,6 +18,17 @@
   margin-left: 1px;
 }
 
+#pointer-child {
+  width: 0;
+  height: 0;
+  display: inline-block;
+  border-left-color:#797979;
+  border: 20px solid transparent;
+  position: absolute;
+  top: 50px;
+  left: -1px;
+}
+
 .inside {
   display: flex;
   flex-direction: column;
@@ -43,8 +54,4 @@ i {
   font-size: 3rem !important;
   color: aliceblue;
   font-weight: 600;
-}
-
-#pointer {
-  text-align: center;
 }
