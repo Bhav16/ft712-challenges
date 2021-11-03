@@ -46,6 +46,12 @@
   color: white;
   height: 100%;
 }
+
+.pf-wrapper {
+  display: flex;
+  padding-right: 260px;
+}
+
 i {
   font-size: 3rem !important;
   color: aliceblue;
