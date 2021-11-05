@@ -52,10 +52,13 @@ svg {
   border-radius: 4px;
 }
 
+
 .dropdown-content-right {
   display: none;
   position: absolute;
   background-color: #f1f1f1;
+  justify-content: space-between;
+  align-items: center;
   padding: 25px;
   min-width: 40vw;
   right: 10%;
@@ -89,3 +92,15 @@ svg {
   text-decoration: none;
   display: block;
 }
+
+.dropdown-content-right a:hover {background-color: #ddd;}
+.dropdown-content-left a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content-right {
+  display: flex;
+}
+.dropdown:hover .dropdown-content-left {
+  display: flex;
+}
+
+.dropdown:hover .dropbtn {border-bottom: solid 1px #303030;}
